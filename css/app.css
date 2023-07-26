@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
-    padding: 0 !important;
+    font-family: 'Montserrat', sans-serif;
+	padding: 0 !important;
     overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -15,7 +15,7 @@ body::-webkit-scrollbar {
 }
 
 .font-estetik {
-    font-family: 'Sacramento', cursive !important;
+    font-family: 'Allura', cursive !important;
     color: #ffffff !important;
 }
 
