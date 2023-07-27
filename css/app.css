@@ -2,15 +2,12 @@ html {
     scroll-behavior: smooth;
 }
 
-body, html {
+body {
     font-family: 'Montserrat', sans-serif;
 	padding: 0 !important;
     overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    margin: 0;
-    padding: 0;
-    height: 100%;
 }
 
 body::-webkit-scrollbar {
