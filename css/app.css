@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 
 .background-image {
   height: 100vh; /* Gunakan 100% tinggi viewport untuk gambar responsif */
-  background-image: url('https://raw.githubusercontent.com/Jo-Danha/undangan/main/assets/images/bg-2.3.jpg'); /* Ganti dengan nama dan path gambar Anda */
+  background-image: url(''); /* Ganti dengan nama dan path gambar Anda */
   background-size: cover;
   background-repeat: no-repeat;
 }
