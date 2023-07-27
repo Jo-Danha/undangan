@@ -623,14 +623,6 @@ const modalFoto = (img) => {
     modal.show();
 };
 
-const sampul = jQuery('.modalx').data('sampul');
-            jQuery('.modalx').css('background-image','url('+sampul+')');
-            jQuery('body').css('overflow','hidden');
-            jQuery('.wdp-button-wrapper button').on('click',function(){
-                jQuery('.modalx').addClass('removeModals');
-                jQuery('body').css('overflow','auto');
- });
-
 window.addEventListener('load', () => {
     let modal = new bootstrap.Modal('#exampleModal');
     let name = (new URLSearchParams(window.location.search)).get('to') ?? '';
