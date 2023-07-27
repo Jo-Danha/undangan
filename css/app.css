@@ -2,17 +2,37 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+body, html {
     font-family: 'Montserrat', sans-serif;
 	padding: 0 !important;
     overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 body::-webkit-scrollbar {
     display: none;
 }
+
+
+.background-image {
+  height: 100vh; /* Gunakan 100% tinggi viewport untuk gambar responsif */
+  background-image: url('https://raw.githubusercontent.com/Jo-Danha/undangan/main/assets/images/bg-2.3.jpg'); /* Ganti dengan nama dan path gambar Anda */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Desain Responsif */
+@media (max-width: auto) {
+  /* Ganti nilai 768px dengan lebar piksel yang sesuai dengan kebutuhan Anda */
+  .background-image {
+    background-position: center;
+  }
+}
+
 
 .font-estetik {
     font-family: 'Great Vibes', cursive !important;
