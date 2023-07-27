@@ -2,12 +2,15 @@ html {
     scroll-behavior: smooth;
 }
 
-body  {
+body, html {
     font-family: 'Montserrat', sans-serif;
 	padding: 0 !important;
     overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 body::-webkit-scrollbar {
@@ -15,20 +18,20 @@ body::-webkit-scrollbar {
 }
 
 
-/*.background-image {
-  height: 100vh; /* Gunakan 100% tinggi viewport untuk gambar responsif 
-  background-image: url(''); /* Ganti dengan nama dan path gambar Anda 
+.background-image {
+  height: 100vh; /* Gunakan 100% tinggi viewport untuk gambar responsif */
+  background-image: url('background-image.jpg'); /* Ganti dengan nama dan path gambar Anda */
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-/* Desain Responsif
+/* Desain Responsif */
 @media (max-width: auto) {
-  /* Ganti nilai 768px dengan lebar piksel yang sesuai dengan kebutuhan Anda
+  /* Ganti nilai 768px dengan lebar piksel yang sesuai dengan kebutuhan Anda */
   .background-image {
     background-position: center;
   }
-} */
+}
 
 
 .font-estetik {
