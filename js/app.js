@@ -625,7 +625,7 @@ const modalFoto = (img) => {
 
 $(window).load(function() {    
     var theWindow = $(window),
-    $bg = $("#bg"),
+    $bg = $("bg"),
     aspectRatio = $bg.width() / $bg.height();	    			    		
     function resizeBg() {		
       if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
