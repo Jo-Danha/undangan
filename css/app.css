@@ -19,6 +19,11 @@ body::-webkit-scrollbar {
     color: #ffffff !important;
 }
 
+.font-estetik2 {
+    font-family: 'Great Vibes', cursive !important;
+    color: #ffffff !important;
+}
+
 .cropper {
     width: 14rem;
     height: 14rem;
