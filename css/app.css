@@ -83,21 +83,19 @@ body::-webkit-scrollbar {
 }
 
 .background-image {
-    height: 100vh; /* Gunakan 100% tinggi viewport untuk gambar responsif */
-    background-image: url('https://raw.githubusercontent.com/Jo-Danha/undangan/main/assets/images/bg-2.3.jpg'); /* Ganti dengan URL gambar Anda */
+    height: 100vh;
+    background-image: url('https://raw.githubusercontent.com/Jo-Danha/undangan/main/assets/images/bg-2.3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    /* Tambahkan properti berikut */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-attachment: fixed; /* Tetapkan gambar latar belakang saat menggulir */
+    background-attachment: fixed;
 }
 
-/* Desain Responsif */
-@media (max-width: 768px) {
-    /* Ganti nilai 768px dengan lebar piksel yang sesuai dengan kebutuhan Anda */
-    .background-image {
-        background-position: center;
-    }
-}
-
-/* Gaya tambahan (tidak berhubungan dengan latar belakang gambar) */
 
 @keyframes scroll {
     0% {
