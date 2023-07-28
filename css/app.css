@@ -33,7 +33,7 @@ body::-webkit-scrollbar {
 }*/
 .background-img {
     height: 100vh;
-    background-image: url("assets/images/bg-2.3.jpg");
+    background-image: url('https://raw.githubusercontent.com/Jo-Danha/undangan/main/assets/images/bg-2.3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     /* Tambahkan properti berikut */
