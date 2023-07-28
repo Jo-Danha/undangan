@@ -31,7 +31,7 @@ div::-webkit-scrollbar {
 body::-webkit-scrollbar {
     display: none;
 }*/
-.background-image {
+.background-img {
     height: 100vh;
     background-image: url('https://raw.githubusercontent.com/Jo-Danha/undangan/main/assets/images/bg-2.3.jpg');
     background-size: cover;
