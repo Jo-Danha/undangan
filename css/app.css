@@ -3,7 +3,7 @@ html {
 }
 
 /* Ganti body selector dengan div jika WebView iOS memiliki masalah */
-body {
+body, html {
     font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
