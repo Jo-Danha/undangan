@@ -31,6 +31,19 @@ div::-webkit-scrollbar {
 body::-webkit-scrollbar {
     display: none;
 }*/
+.background-image {
+    height: 100vh;
+    background-image: url('https://raw.githubusercontent.com/Jo-Danha/undangan/main/assets/images/bg-2.3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Tambahkan properti berikut */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-attachment: fixed; /* Tetapkan gambar latar belakang saat menggulir */
+    background-attachment: fixed;
+}
 
 .font-estetik {
     font-family: 'Great Vibes', cursive;
@@ -96,20 +109,6 @@ body::-webkit-scrollbar {
     animation-duration: 2.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-}
-
-.background-image {
-    height: 100vh;
-    background-image: url('https://raw.githubusercontent.com/Jo-Danha/undangan/main/assets/images/bg-2.3.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* Tambahkan properti berikut */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    -webkit-background-attachment: fixed; /* Tetapkan gambar latar belakang saat menggulir */
-    background-attachment: fixed;
 }
 
 
