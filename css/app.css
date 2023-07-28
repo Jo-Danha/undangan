@@ -16,22 +16,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-.background-image {
-    height: 100vh; /* Gunakan 100% tinggi viewport untuk gambar responsif */
-    background-image: url('https://raw.githubusercontent.com/Jo-Danha/undangan/main/assets/images/bg-2.3.jpg'); /* Ganti dengan URL gambar Anda */
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-/* Desain Responsif */
-@media (max-width: 768px) {
-    /* Ganti nilai 768px dengan lebar piksel yang sesuai dengan kebutuhan Anda */
-    .background-image {
-        background-position: center;
-    }
-}
-
-/* Gaya tambahan (tidak berhubungan dengan latar belakang gambar) */
 .font-estetik {
     font-family: 'Great Vibes', cursive;
     color: #ffffff;
@@ -97,6 +81,23 @@ body::-webkit-scrollbar {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
+.background-image {
+    height: 100vh; /* Gunakan 100% tinggi viewport untuk gambar responsif */
+    background-image: url('https://raw.githubusercontent.com/Jo-Danha/undangan/main/assets/images/bg-2.3.jpg'); /* Ganti dengan URL gambar Anda */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Desain Responsif */
+@media (max-width: 768px) {
+    /* Ganti nilai 768px dengan lebar piksel yang sesuai dengan kebutuhan Anda */
+    .background-image {
+        background-position: center;
+    }
+}
+
+/* Gaya tambahan (tidak berhubungan dengan latar belakang gambar) */
 
 @keyframes scroll {
     0% {
