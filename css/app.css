@@ -1,13 +1,14 @@
-html {
+/*html {
     scroll-behavior: smooth;
-}
+}*/
 
-body {
+body, html {
     font-family: 'Montserrat', sans-serif;
     padding: 0;
     overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    scroll-behavior: smooth;
     margin: 0;
     height: 100%;
 }
