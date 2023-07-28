@@ -31,18 +31,20 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar {
     display: none;
 }*/
-.background-img {
-    height: 100vh;
-    background-image: url('https://raw.githubusercontent.com/Jo-Danha/undangan/main/assets/images/bg-2.3.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* Tambahkan properti berikut */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    -webkit-background-attachment: fixed; /* Tetapkan gambar latar belakang saat menggulir */
-    background-attachment: fixed;
+
+.background-image {
+  height: 100vh; /* Gunakan 100% tinggi viewport untuk gambar responsif */
+  background-image: url('background-image.jpg'); /* Ganti dengan nama dan path gambar Anda */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Desain Responsif */
+@media (max-width: 768px) {
+  /* Ganti nilai 768px dengan lebar piksel yang sesuai dengan kebutuhan Anda */
+  .background-image {
+    background-position: center;
+  }
 }
 
 .font-estetik {
