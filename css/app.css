@@ -2,35 +2,18 @@ html {
     scroll-behavior: smooth;
 }
 
-div, html {
+body {
     font-family: 'Montserrat', sans-serif;
-    padding: 0;
-    margin: 0;
-    height: 100%;
+	padding: 0 !important;
     overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
 
-div::-webkit-scrollbar {
+body::-webkit-scrollbar {
     display: none;
 }
 
-/* Gaya lainnya tetap sama */
-
-.background-image {
-    height: 100vh;
-    background-image: url('https://raw.githubusercontent.com/Jo-Danha/undangan/main/assets/images/bg-2.3.jpg');
-    background-size: contain; /* Atau coba dengan background-size: auto; */
-    background-repeat: no-repeat;
-    -webkit-background-size: contain; /* Jika menggunakan contain di atas */
-    -moz-background-size: contain; /* Jika menggunakan contain di atas */
-    -o-background-size: contain; /* Jika menggunakan contain di atas */
-    background-size: contain; /* Jika menggunakan contain di atas */
-    -webkit-background-attachment: fixed;
-    background-attachment: fixed;
-}
 
 .font-estetik {
     font-family: 'Great Vibes', cursive !important;
@@ -38,6 +21,11 @@ div::-webkit-scrollbar {
 }
 
 .font-estetik2 {
+    font-family: 'Sacramento', cursive;
+    color: #ffffff;
+}
+
+.font-estetik3 {
     font-family: 'Kalam', cursive !important;
     color: #ffffff !important;
 }

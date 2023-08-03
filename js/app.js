@@ -426,7 +426,7 @@ const ucapan = async () => {
                 pagination.setResultData(res.data.length);
 
                 if (res.data.length == 0) {
-                    UCAPAN.innerHTML = `<div class="h6 text-center">Tidak ada data</div>`;
+                    UCAPAN.innerHTML = `<div class="h6 text-center">Belum ada ucapan</div>`;
                 }
             }
 
